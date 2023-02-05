@@ -81,6 +81,10 @@ public class FileDemo2 {
 			}
 
 			break;
+			
+		case 6:
+					
+			break;
 
 		}
 
