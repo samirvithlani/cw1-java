@@ -8,7 +8,7 @@ public class FileDemo9 {
 
 	public static void main(String[] args) {
 		
-		File file = new File("Hello.txt");
+		File file = new File("C:\\Users\\Samir\\Desktop\\dictonry");
 		try {
 			Scanner sc = new Scanner(file);
 //			String data ="";

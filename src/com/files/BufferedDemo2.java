@@ -1,28 +1,28 @@
 package com.files;
 
+import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class FileDemo8 {
+public class BufferedDemo2 {
 
 	public static void main(String[] args) {
-		
+		String data ="";
 		
 		try {
-			FileReader reader = new FileReader("C:\\Users\\Samir\\Desktop\\dictonry");
-			int c=0;
+			BufferedReader br = new BufferedReader(new FileReader("C:\\Users\\Samir\\Desktop\\dictonry"));
 			int count=0;
-			while((c= reader.read())!= -1) {
+			while((data = br.readLine())!=null) {
+				System.out.println(data);
 				count++;
-				System.out.print((char)c);	
 			}
 			System.out.println(count);
-			
 			
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}
+	
 }
