@@ -1,0 +1,18 @@
+collection framework :
+
+framework: it predefine architure, and developer have to just reuse it...
+
+Array :- group of similar kind of data..
+smilar type
+static size...
+
+Collection : its group of data...	
+
+
+4 method
+list -->class level instance varible...
+
+addData  add
+removeData remove
+updateData set
+retrive Data	for each loop					
