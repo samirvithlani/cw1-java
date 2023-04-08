@@ -15,4 +15,18 @@ list -->class level instance varible...
 addData  add
 removeData remove
 updateData set
-retrive Data	for each loop					
+retrive Data	for each loop		
+
+
+---------------------------------------------
+
+cricket match
+1)2 team create... 5 batsman 5 ball.. 1 wc
+2)view teams
+3)add score.. 
+    player wise score and wickets
+
+4)result -->    
+
+
+			
